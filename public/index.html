@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and CSS/JS files inclusion -->
+    <meta charset="UTF-8"><!-- Defines the character set for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet"><!-- Links to the external CSS file -->
+    
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/ddc04c24fc.js" crossorigin="anonymous"></script>
+
+    <!-- The title of the web page -->
+    <title>pickup-line generator</title>
+
+    <!-- The favicon for the web page -->
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+</head>
+<body>
+
+    <!-- Main content section -->
+    <header class="ml-6 flex flex-col justify-center items-center lg:items-start mt-6">
+        <div class="flex">
+            <svg class="lg:ml-4" fill="#f75484" width="61px" height="61px" viewBox="-102.4 -102.4 1228.80 1228.80" xmlns="http://www.w3.org/2000/svg" stroke="#f75484" 
+                transform="rotate(-45)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" 
+                stroke-linejoin="round" stroke="#CCCCCC" stroke-width="8.192"></g><g id="SVGRepo_iconCarrier">
+                <path d="M715.086 175.231c84.209 83.541 84.209 219.068 0 302.609L473.844 717.177c-27.011 26.808-70.757 26.808-97.766.003L134.834 477.841c-84.209-83.541-84.209-219.068 0-302.609 79.465-78.834 205.507-83.196 290.126-13.085 84.619-70.111 210.661-65.749 290.126 13.085zm-304.55 29.078c-68.15-67.609-178.704-67.609-246.854 0-68.059 67.519-68.059 176.933 0 244.453l241.247 239.342c11.041 10.958 29.021 10.958 40.064-.003l241.244-239.34c68.059-67.519 68.059-176.933 0-244.453-68.15-67.609-178.704-67.609-246.854 0-7.985 7.921-20.863 7.921-28.847 0zm512.659 447.719c41.568 41.25 41.568 108.188-.002 149.427L817.049 906.759c-16.362 16.242-42.825 16.242-59.183.004L651.718 801.455c-41.57-41.239-41.57-108.177 0-149.429 36.964-36.67 94.329-40.671 135.737-11.999 41.408-28.671 98.773-24.671 135.739 12.001zM773.03 681.102c-25.51-25.315-66.943-25.315-92.462 0-25.423 25.228-25.423 66.056-.002 91.275l106.152 105.312c.391.388 1.084.388 1.479-.004l106.148-105.308c25.42-25.218 25.42-66.046 0-91.272-25.52-25.318-66.953-25.318-92.464-.002-7.985 7.924-20.867 7.924-28.852 0z"></path></g>
+            </svg>
+            <svg class="" fill="#f75484" width="61px" height="61px" viewBox="-102.4 -102.4 1228.80 1228.80" xmlns="http://www.w3.org/2000/svg" stroke="#f75484" 
+                transform="rotate(-45)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" 
+                stroke-linejoin="round" stroke="#CCCCCC" stroke-width="8.192"></g><g id="SVGRepo_iconCarrier">
+                <path d="M715.086 175.231c84.209 83.541 84.209 219.068 0 302.609L473.844 717.177c-27.011 26.808-70.757 26.808-97.766.003L134.834 477.841c-84.209-83.541-84.209-219.068 0-302.609 79.465-78.834 205.507-83.196 290.126-13.085 84.619-70.111 210.661-65.749 290.126 13.085zm-304.55 29.078c-68.15-67.609-178.704-67.609-246.854 0-68.059 67.519-68.059 176.933 0 244.453l241.247 239.342c11.041 10.958 29.021 10.958 40.064-.003l241.244-239.34c68.059-67.519 68.059-176.933 0-244.453-68.15-67.609-178.704-67.609-246.854 0-7.985 7.921-20.863 7.921-28.847 0zm512.659 447.719c41.568 41.25 41.568 108.188-.002 149.427L817.049 906.759c-16.362 16.242-42.825 16.242-59.183.004L651.718 801.455c-41.57-41.239-41.57-108.177 0-149.429 36.964-36.67 94.329-40.671 135.737-11.999 41.408-28.671 98.773-24.671 135.739 12.001zM773.03 681.102c-25.51-25.315-66.943-25.315-92.462 0-25.423 25.228-25.423 66.056-.002 91.275l106.152 105.312c.391.388 1.084.388 1.479-.004l106.148-105.308c25.42-25.218 25.42-66.046 0-91.272-25.52-25.318-66.953-25.318-92.464-.002-7.985 7.924-20.867 7.924-28.852 0z"></path></g>
+            </svg>
+        </div>
+         <!-- Header title -->
+        <h2 class="text-2xl font-bold">Pick My Line</h2>
+    </header>
+
+    <!-- Main content section -->
+    <main class="flex items-center justify-center mt-16 flex-col">
+        <div class="main-container text-center">
+            <h1  class=" text-6xl font-bold text-header" >Pick your favorite line to flat your <span class="word">partner!</span></h1>
+            <p class="mt-6 mx-6 text-lg">Not able to start conversation even after getting matched? Here is my powered pickup line generator for you!!</p>
+        </div>
+
+        <div class="mt-10 sub-container rounded-lg max-w-xl m-3 p-6 md:p-20 lg:w-10/12 ">
+            <P class="pickup-line text-center text-lg"></P><!-- Placeholder for pickup line -->
+            <div class="flex justify-center content-center mt-8">
+                <!-- Button to generate a pickup line -->
+                <button class = "button rounded-lg p-3">Tell me a pickup Line</button>
+            </div>   
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="mt-36 bg-white">
+        <header class=" flex flex-col justify-center items-center pt-9">
+            <div class="flex">
+                <svg class="" fill="#f75484" width="61px" height="61px" viewBox="-102.4 -102.4 1228.80 1228.80" xmlns="http://www.w3.org/2000/svg" stroke="#f75484" 
+                    transform="rotate(-45)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" 
+                    stroke-linejoin="round" stroke="#CCCCCC" stroke-width="8.192"></g><g id="SVGRepo_iconCarrier">
+                    <path d="M715.086 175.231c84.209 83.541 84.209 219.068 0 302.609L473.844 717.177c-27.011 26.808-70.757 26.808-97.766.003L134.834 477.841c-84.209-83.541-84.209-219.068 0-302.609 79.465-78.834 205.507-83.196 290.126-13.085 84.619-70.111 210.661-65.749 290.126 13.085zm-304.55 29.078c-68.15-67.609-178.704-67.609-246.854 0-68.059 67.519-68.059 176.933 0 244.453l241.247 239.342c11.041 10.958 29.021 10.958 40.064-.003l241.244-239.34c68.059-67.519 68.059-176.933 0-244.453-68.15-67.609-178.704-67.609-246.854 0-7.985 7.921-20.863 7.921-28.847 0zm512.659 447.719c41.568 41.25 41.568 108.188-.002 149.427L817.049 906.759c-16.362 16.242-42.825 16.242-59.183.004L651.718 801.455c-41.57-41.239-41.57-108.177 0-149.429 36.964-36.67 94.329-40.671 135.737-11.999 41.408-28.671 98.773-24.671 135.739 12.001zM773.03 681.102c-25.51-25.315-66.943-25.315-92.462 0-25.423 25.228-25.423 66.056-.002 91.275l106.152 105.312c.391.388 1.084.388 1.479-.004l106.148-105.308c25.42-25.218 25.42-66.046 0-91.272-25.52-25.318-66.953-25.318-92.464-.002-7.985 7.924-20.867 7.924-28.852 0z"></path></g>
+                </svg>
+                <svg class="" fill="#f75484" width="61px" height="61px" viewBox="-102.4 -102.4 1228.80 1228.80" xmlns="http://www.w3.org/2000/svg" stroke="#f75484" 
+                    transform="rotate(-45)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" 
+                    stroke-linejoin="round" stroke="#CCCCCC" stroke-width="8.192"></g><g id="SVGRepo_iconCarrier">
+                    <path d="M715.086 175.231c84.209 83.541 84.209 219.068 0 302.609L473.844 717.177c-27.011 26.808-70.757 26.808-97.766.003L134.834 477.841c-84.209-83.541-84.209-219.068 0-302.609 79.465-78.834 205.507-83.196 290.126-13.085 84.619-70.111 210.661-65.749 290.126 13.085zm-304.55 29.078c-68.15-67.609-178.704-67.609-246.854 0-68.059 67.519-68.059 176.933 0 244.453l241.247 239.342c11.041 10.958 29.021 10.958 40.064-.003l241.244-239.34c68.059-67.519 68.059-176.933 0-244.453-68.15-67.609-178.704-67.609-246.854 0-7.985 7.921-20.863 7.921-28.847 0zm512.659 447.719c41.568 41.25 41.568 108.188-.002 149.427L817.049 906.759c-16.362 16.242-42.825 16.242-59.183.004L651.718 801.455c-41.57-41.239-41.57-108.177 0-149.429 36.964-36.67 94.329-40.671 135.737-11.999 41.408-28.671 98.773-24.671 135.739 12.001zM773.03 681.102c-25.51-25.315-66.943-25.315-92.462 0-25.423 25.228-25.423 66.056-.002 91.275l106.152 105.312c.391.388 1.084.388 1.479-.004l106.148-105.308c25.42-25.218 25.42-66.046 0-91.272-25.52-25.318-66.953-25.318-92.464-.002-7.985 7.924-20.867 7.924-28.852 0z"></path></g>
+                </svg>
+            </div>
+    
+            <h2 class="text-2xl font-bold">Pick My Line</h2>
+        </header>    
+
+        <!-- Social media links -->
+        <div class="flex gap-3 justify-center items-center pt-3">
+            <a href="https://www.instagram.com/johnson_ameyaw" target="_blank"><i class="fa-brands fa-instagram text-4xl transition ease-in duration-200"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp text-4xl transition ease-in duration-200"></i></a>
+            <a href="https://github.com/jaameyaw" target="_blank"><i class="fa-brands fa-github text-4xl transition ease-in duration-200"></i></a>
+        </div>
+
+        <div class="flex justify-center items-center pt-2">
+            <!-- Credit line -->
+            <p>Created by Johnson Addo Ameyaw.</p>
+        </div>
+
+    </footer>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>
