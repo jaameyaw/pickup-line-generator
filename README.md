@@ -11,7 +11,7 @@ Need help breaking the ice? Struggling to send the first message after a match? 
 
 ## 🛠️ Built With
 - **HTML5** – For page structure  
-- **CSS3** – For responsive and stylish design  
+- **Tailwind CSS** – For utility-first responsive styling 
 - **JavaScript (Vanilla)** – For app logic and API interaction  
 - **Pickup Line API** – To fetch creative and fresh pickup lines
 
